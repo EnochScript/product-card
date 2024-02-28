@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.montserrat-thick{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.fraunces-thin {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+body{
+ background-color:hsl(30, 38%, 92%);
+}
+.container{
+    background-color: white;
+    width: 40%;
+    height: 25rem;
+    margin-top: 10%;
+    margin-left: 30%;
+    display: flex;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+#img1{
+    width: 50%;
+    height: 25rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.perfume{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 100%;
+    font-size: small;
+}
+.text{
+    height: 25rem;
+    width: 100%;
+}
+.gab{
+    font-family: "Fraunces", serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 70%;
+}
+.floral{
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.div2{
+    display: flex;
+}
+.price{
+    font-family: "Fraunces", serif;
+    color:  hsl(158, 36%, 37%);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.stroked{
+    text-decoration: line-through;
+    margin-top: 9%;
+    margin-left: 3%;
+    font-size: small;
+}
+#img2{
+    display: none;
+}
+.cart{
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    margin-top: 5%;
+    color:  white;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    width: 70%;
+    height: 10%;
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-left: 5%;
+    border-radius: 1rem;
+    gap: 2%;
+}
+.cart:hover{
+    background-color: hsl(158, 35%, 14%);
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .container{
+        display: block;
+        margin-top: 1%;
+        width: 90%;
+        height: 35rem;
+        margin-left: 5%;
+    }
+    #img1{
+        display: none;
+    }
+    #img2{
+        display: block;
+        width: 100%;
+        height: 10rem;
+        margin-top: 10%;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .cart{
+        margin-left: 10%;
+        margin-right: 0;
+    }
+}
